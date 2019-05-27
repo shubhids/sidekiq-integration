@@ -1,0 +1,7 @@
+<p> Hello <%= @post.user.email %> </p>
+
+<p> You have created new post with title <%= @post.title %></p>
+
+<p>Please find the link below: </p>
+
+<p><%= link_to @post.title, post_url(@post.id) %></p>

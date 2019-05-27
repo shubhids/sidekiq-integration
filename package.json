@@ -1,0 +1,5 @@
+{
+  "name": "sidekiq-integration",
+  "private": true,
+  "dependencies": {}
+}
